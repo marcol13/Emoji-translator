@@ -1,0 +1,44 @@
+@mixin flex-declaration{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    font-family: 'Mouse Memoirs', sans-serif;
+    letter-spacing: 2px;
+
+    .content-page1,.translator{
+        @include flex-declaration;
+    }
+
+    header{
+        font-size: 1.5em;
+    }
+
+    .translator{
+        margin-top: 20px;
+        textarea{
+            resize: none;
+            width: 70vw;
+            height: 250px;
+            font-size: 1.4em;
+            margin-bottom: 15px;
+        }
+        
+        .text{
+            background: url('img/placeholder.gif') center center no-repeat;
+        }
+
+        .notext{
+            background: none;
+        }
+
+        button{
+            font-family: 'Mouse Memoirs', sans-serif;
+            font-size: 1.5em;
+            letter-spacing: 2px;
+        }
+    }
+}

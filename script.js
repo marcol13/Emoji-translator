@@ -8,6 +8,7 @@ txtAreaDocument.addEventListener("input", translate)
 button.addEventListener("click", () => {emojiAreaDocument.select();document.execCommand('copy')})
 
 dictionary = {
+    '1': String.fromCodePoint(0xFE0F),
     'a': '🍉',
     'b': '🎟️',
     'c': '🍋',
@@ -50,7 +51,4 @@ function translateWord(str){
 
 function translate(e){
     emojiAreaDocument.textContent = translateWord(e.target.value)
-    // temp = e.target.value.toLowerCase();
-    // k = dictionary[temp[temp.length - 1]]
-    // k != undefined ? emojiAreaDocument.textContent += dictionary[temp[temp.length - 1]] : emojiAreaDocument.textContent += " "
 }

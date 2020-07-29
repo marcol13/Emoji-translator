@@ -41,4 +41,31 @@ body{
             letter-spacing: 2px;
         }
     }
+
+    .content-page2{
+        margin: 20px 15vw;
+        @include flex-declaration;
+        font-size: 1.5em;
+        p.info{
+            text-align: justify;
+        }
+        
+        .alphabet{
+            table{
+                tr{
+                    td{
+                        padding: 5px;
+                    }
+
+                    td:nth-child(2){
+                        padding-right: 60px;
+                    }
+                }
+
+                
+                
+            }
+
+        }
+    }
 }

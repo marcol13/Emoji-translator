@@ -14,7 +14,7 @@
 
 ## About The Project
 
-The Emoji Translator App is a website where you can write your message, which will be translated automatically into emojis. Translation is consistent with the set dictionary, which you can see in [[LIVE DEMO]](marcol13.github.io/Emoji-translator/) or in code.
+The Emoji Translator App is a website where you can write your message, which will be translated automatically into emojis. Translation is consistent with the set dictionary, which you can see in [[LIVE DEMO]](https://marcol13.github.io/Emoji-translator/) or in code.
 
 Each letter corresponds to one emoji which name is starting on that letter in Polish, e.g.: `⭐ = "G"`, because ⭐ means **Gwiazda** in Polish.
 
@@ -24,7 +24,7 @@ Each letter corresponds to one emoji which name is starting on that letter in Po
 
 ## Demo
 
-You can try it by yourself: [[LIVE DEMO]](marcol13.github.io/Emoji-translator/)
+You can try it by yourself: [[LIVE DEMO]](https://marcol13.github.io/Emoji-translator/)
 
 ### Main page
 
